@@ -1,0 +1,31 @@
+START
+// Comment Number One
+// Comment Number Two
+LoopOne       CLA      X
+              LAC      A
+              ADD      ='1'
+              SUB      ='35'
+Loop          BRP      Subtraction          // Comment Number Three
+Subtraction   SUB      ='5'
+              ADD      B                    // Comment Number Four
+              MUL       C
+              SUB      D
+              ML      ='600'
+              BRZ      Zero1             // Comment Number Five
+Division      DIV      E
+              CLA
+              LAC      REG1
+              BRP      Positive
+Zero          SAC      X
+              DSP      X
+              STP
+Positive      CLA
+              DSP      REG1
+              DSP      REG2
+        A     DATA     250
+        B     DATA     125
+        C     DATA     90
+        D     DATA     88
+        E     DATA     5
+        X     DATA     0
+              END
