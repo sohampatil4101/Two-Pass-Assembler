@@ -1,6 +1,6 @@
 # Two-Pass-Assembler
 
-A Python program that replicates a Two Pass Assembler.Two-Pass Assembler performs two passes over the assembly language source code. In the First Pass, it iterates over all the lines and creates few essential tables, namely, Symbol Table, Literal Table, and Data Table. In the Second Pass, the Assembler translates the assembly code to machine language code.
+A Python program that replicates a Two Pass Assembler. A Two-Pass Assembler performs two passes over the assembly language source code. In the First Pass, it iterates over all the lines and creates few essential tables, namely, Symbol Table, Literal Table, and Data Table. In the Second Pass, the Assembler translates the assembly code to machine language code.
 
 The Two-Pass Assembler outputs an Opcode Table, a Symbol Table, a Literal Table, a Data Table, and the Machine Code for the input Assembly Code. It will also create a text file by the name of “Machine Code.txt” that consists of the machine language code for the input assembly language code.
 
